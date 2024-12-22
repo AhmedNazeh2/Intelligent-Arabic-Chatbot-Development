@@ -54,13 +54,14 @@ Form Data:
 Health Check: To check if the server is running properly:
 
 GET http://127.0.0.1:8000/health
+
 Project Structure
-bash
-Copy code
-├── main.py                # Main application file
-├── .env                   # Environment variables (API key)
-├── requirements.txt       # Dependency list
-└── README.md              # Project README
+
+
+├── main.py                
+├── .env                   
+├── requirements.txt      
+└── README.md             
 
 Notes
 Session Management: Each user has a separate session that stores their conversation history.
