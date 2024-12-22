@@ -59,7 +59,7 @@ Project Structure
 
 
 ├── main.py                
-├── app.py and .env
+├── app.py and 
 ├── requirements.txt      
 └── README.md             
 
