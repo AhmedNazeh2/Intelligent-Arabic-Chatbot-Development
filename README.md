@@ -14,26 +14,21 @@ Google Generative AI SDK: For using the Google Gemini model.
 python-dotenv: For loading environment variables from .env files.
 asyncio: For managing asynchronous sessions.
 Uvicorn: For running the application using an ASGI server.
+
 Setup Locally
 1. Install Dependencies
 Start by installing the required packages using pip:
-
 pip install -r requirements.txt
-
 2. Set up the Environment
 Make sure you have created a .env file in the root directory of your project, and add your Google API key to it:
 .env file
 GOOGLE_API_KEY=your_google_api_key_here
-
 3. Run the Application
 Once the environment is set up, you can run the server using uvicorn:
-
 uvicorn main:app --reload
 main:app refers to the application object (app) in the main.py file.
-
 4. Access the API
 After running the server, you can access the API at the following endpoints:
-
 /chat/: Send a query and get a response from the Google Gemini model.
 /reset/: Reset the user's chat session.
 /health: A health check endpoint to verify the server is working.
@@ -56,9 +51,7 @@ Health Check: To check if the server is running properly:
 GET http://127.0.0.1:8000/health
 
 Project Structure
-
-
-├── main.py                
+             
 ├── app.py 
 ├── requirements.txt      
 └── README.md             
@@ -66,12 +59,11 @@ Project Structure
 Notes
 Session Management: Each user has a separate session that stores their conversation history.
 Error Handling: HTTPException is used to handle errors resulting from invalid requests or server issues.
-Extending the Project
 
+Extending the Project
 1. Improving Responses:
 The generation parameters, such as temperature and top_p, can be fine-tuned to better suit user needs.
 2. Adding a Frontend:
 This API can be integrated with a frontend to provide an interactive user experience.
-
 3. Expanding Supported Languages:
 You can add additional language models to support more languages beyond Arabic.
