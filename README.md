@@ -28,8 +28,7 @@ This project implements an intelligent chatbot system using FastAPI and Google G
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone <https://github.com/AhmedNazeh2/chatbot_system_using_Gemini_API.git>
    ```
 
 2. **Install Dependencies**:
@@ -45,7 +44,7 @@ This project implements an intelligent chatbot system using FastAPI and Google G
 
 4. **Run the Application**:
    ```bash
-   uvicorn main:app --reload
+   uvicorn app:app --reload
    ```
 
 ---
@@ -117,7 +116,7 @@ This project implements an intelligent chatbot system using FastAPI and Google G
 
 ```
 .
-├── main.py            # Main application file
+├── app.py            # Main application file
 ├── requirements.txt   # Dependencies
 ├── .env               # Environment variables
 ├── README.md          # Project documentation
@@ -142,20 +141,7 @@ This project implements an intelligent chatbot system using FastAPI and Google G
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Contributing
 
 Contributions are welcome! Please fork the repository, make changes, and submit a pull request.
 
----
-
-## Contact
-
-For any queries or feedback, feel free to reach out:
-- **Email**: [your_email@example.com]
-- **GitHub**: [Your GitHub Profile]
