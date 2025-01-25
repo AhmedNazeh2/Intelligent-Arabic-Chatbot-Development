@@ -21,8 +21,3 @@ This project implements an intelligent chatbot system using FastAPI and Google G
 
 ---
 
-## Installation
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/AhmedNazeh2/-Recommender_System.git
